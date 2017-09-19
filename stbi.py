@@ -13,7 +13,7 @@ tf_value = tf(n_terms, total_terms)
 idf_value = idf(n_docs, n_docs_with_terms)
 
 #print tf_value
-print("Term frequency: {0}".format(idf_value))
+print("Term frequency: {0}".format(tf_value))
 print("Inverse document frequency: {0}".format(idf_value))
 
 tfidf_value = tf_value * idf_value
